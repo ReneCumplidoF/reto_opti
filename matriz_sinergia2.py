@@ -4,19 +4,19 @@ import numpy as np
 # La celda vacía en la esquina superior izquierda se representa como 'np.nan'
 # (Not a Number), que es el estándar de NumPy para datos faltantes.
 
-# Columnas: ['P.l.', 'Y.f.', 'O.st.', 'O.r.', 'O.e.', 'O.c.', 'A.sa.', 'A.sc.', 'A.st.', 'A.l.']
 datos_matriz = np.array([
-    [0.2, 0.2, 0.5, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0],  # Fila 'P. laevigata'
-    [0.5,    0.2, 0.1, 0.1, 0.1, 0.1, 0.4, 0.4, 0.4, 0.4],  # Fila 'Y. filifera'
-    [1.0,    0.1, 0.2, 0.2, 0.2, 0.2, 0.4, 0.4, 0.4, 0.4],  # Fila 'O. streptacantha'
-    [1.0,    0.1, 0.2, 0.2, 0.2, 0.2, 0.4, 0.4, 0.4, 0.4],  # Fila 'O. robusta'
-    [1.0,    0.1, 0.2, 0.2, 0.2, 0.2, 0.4, 0.4, 0.4, 0.4],  # Fila 'O. engelmannii'
-    [1.0,    0.1, 0.2, 0.2, 0.2, 0.2, 0.4, 0.4, 0.4, 0.4],  # Fila 'O. cantabrigiens'
-    [1.0,    0.4, 0.4, 0.4, 0.4, 0.4, 0.2, 0.4, 0.4, 0.4],  # Fila 'A. salmiana'
-    [1.0,    0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.0, 0.2, 0.0],  # Fila 'A. scabra'
-    [1.0,    0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.2, 0.0, 0.0],  # Fila 'A. striata'
-    [1.0,    0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.0, 0.0, 0.0]   # Fila 'A. lechuguilla'
-], dtype=float) # Es importante usar dtype=float para permitir 'np.nan'
+    [1.0, 0.9, 0.9, 0.9, 0.9, 0.9, 0.9, 0.9, 0.3, 0.8],  # Agave lechuguilla
+    [0.9, 1.0, 0.8, 0.8, 0.7, 0.7, 0.7, 0.7, 0.2, 0.8],  # Agave salmiana
+    [0.9, 0.8, 1.0, 0.8, 0.7, 0.7, 0.7, 0.7, 0.2, 0.8],  # Agave scabra
+    [0.9, 0.8, 0.8, 1.0, 0.7, 0.7, 0.7, 0.7, 0.2, 0.8],  # Agave striata
+    [0.9, 0.7, 0.7, 0.7, 1.0, 0.8, 0.8, 0.8, 0.2, 0.8],  # Opuntia cantabrigiensis
+    [0.9, 0.7, 0.7, 0.7, 0.8, 1.0, 0.8, 0.8, 0.2, 0.8],  # Opuntia engelmannii
+    [0.9, 0.7, 0.7, 0.7, 0.8, 0.8, 1.0, 0.8, 0.2, 0.8],  # Opuntia robusta
+    [0.9, 0.7, 0.7, 0.7, 0.8, 0.8, 0.8, 1.0, 0.2, 0.8],  # Opuntia streptacantha
+    [0.3, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 1.0, 0.5],  # Prosopis laevigata
+    [0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.5, 1.0]   # Yucca filifera
+], dtype=float)
+
 
 # 2. Nombre del archivo de salida
 nombre_archivo = 'matriz_de_similitud.npy'

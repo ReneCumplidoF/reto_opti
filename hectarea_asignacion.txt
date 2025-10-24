@@ -1,0 +1,659 @@
+indice del espacio: que planta está
+0: vacío
+1: vacío
+2: vacío
+3: vacío
+4: vacío
+5: vacío
+6: Agave salmiana
+7: Opuntia streptacantha
+8: vacío
+9: vacío
+10: vacío
+11: vacío
+12: vacío
+13: vacío
+14: vacío
+15: Opuntia cantabrigiensis
+16: vacío
+17: vacío
+18: vacío
+19: vacío
+20: Opuntia robusta
+21: vacío
+22: vacío
+23: vacío
+24: vacío
+25: vacío
+26: Agave salmiana
+27: Prosopis laevigata
+28: vacío
+29: vacío
+30: vacío
+31: Agave striata
+32: vacío
+33: vacío
+34: vacío
+35: Opuntia cantabrigiensis
+36: Opuntia streptacantha
+37: vacío
+38: vacío
+39: Agave lechuguilla
+40: vacío
+41: Opuntia streptacantha
+42: vacío
+43: vacío
+44: vacío
+45: vacío
+46: Opuntia streptacantha
+47: Yucca filifera
+48: vacío
+49: vacío
+50: vacío
+51: vacío
+52: vacío
+53: vacío
+54: vacío
+55: vacío
+56: vacío
+57: vacío
+58: vacío
+59: vacío
+60: vacío
+61: Agave salmiana
+62: vacío
+63: vacío
+64: vacío
+65: Agave salmiana
+66: Prosopis laevigata
+67: Opuntia streptacantha
+68: vacío
+69: vacío
+70: vacío
+71: vacío
+72: Agave salmiana
+73: vacío
+74: vacío
+75: Agave salmiana
+76: vacío
+77: vacío
+78: vacío
+79: vacío
+80: vacío
+81: vacío
+82: vacío
+83: vacío
+84: Agave salmiana
+85: vacío
+86: vacío
+87: vacío
+88: vacío
+89: vacío
+90: vacío
+91: vacío
+92: vacío
+93: vacío
+94: vacío
+95: vacío
+96: vacío
+97: vacío
+98: vacío
+99: Agave salmiana
+100: Agave scabra
+101: vacío
+102: vacío
+103: vacío
+104: vacío
+105: vacío
+106: Agave salmiana
+107: Agave striata
+108: vacío
+109: vacío
+110: vacío
+111: vacío
+112: Agave striata
+113: vacío
+114: vacío
+115: Agave salmiana
+116: vacío
+117: vacío
+118: vacío
+119: Agave salmiana
+120: vacío
+121: vacío
+122: vacío
+123: Agave scabra
+124: vacío
+125: Agave striata
+126: vacío
+127: vacío
+128: vacío
+129: vacío
+130: vacío
+131: vacío
+132: vacío
+133: vacío
+134: Opuntia robusta
+135: vacío
+136: vacío
+137: vacío
+138: vacío
+139: vacío
+140: vacío
+141: vacío
+142: vacío
+143: vacío
+144: Opuntia robusta
+145: vacío
+146: vacío
+147: vacío
+148: vacío
+149: vacío
+150: vacío
+151: vacío
+152: vacío
+153: vacío
+154: vacío
+155: Agave salmiana
+156: vacío
+157: vacío
+158: vacío
+159: vacío
+160: Prosopis laevigata
+161: vacío
+162: vacío
+163: vacío
+164: vacío
+165: vacío
+166: vacío
+167: Opuntia robusta
+168: vacío
+169: vacío
+170: vacío
+171: vacío
+172: vacío
+173: vacío
+174: Opuntia streptacantha
+175: vacío
+176: vacío
+177: vacío
+178: Opuntia engelmannii
+179: Agave salmiana
+180: vacío
+181: vacío
+182: Opuntia streptacantha
+183: Prosopis laevigata
+184: vacío
+185: vacío
+186: vacío
+187: Agave salmiana
+188: vacío
+189: vacío
+190: vacío
+191: vacío
+192: vacío
+193: vacío
+194: Agave salmiana
+195: Agave scabra
+196: vacío
+197: Opuntia streptacantha
+198: vacío
+199: vacío
+200: vacío
+201: Opuntia engelmannii
+202: vacío
+203: vacío
+204: vacío
+205: Agave salmiana
+206: vacío
+207: vacío
+208: Opuntia robusta
+209: vacío
+210: vacío
+211: Opuntia cantabrigiensis
+212: vacío
+213: vacío
+214: vacío
+215: vacío
+216: vacío
+217: Opuntia engelmannii
+218: vacío
+219: vacío
+220: vacío
+221: vacío
+222: vacío
+223: vacío
+224: vacío
+225: vacío
+226: vacío
+227: vacío
+228: vacío
+229: vacío
+230: vacío
+231: vacío
+232: vacío
+233: vacío
+234: vacío
+235: vacío
+236: Prosopis laevigata
+237: Prosopis laevigata
+238: vacío
+239: vacío
+240: vacío
+241: vacío
+242: vacío
+243: Prosopis laevigata
+244: vacío
+245: vacío
+246: Opuntia robusta
+247: vacío
+248: Agave striata
+249: vacío
+250: vacío
+251: Opuntia cantabrigiensis
+252: vacío
+253: vacío
+254: vacío
+255: vacío
+256: vacío
+257: vacío
+258: vacío
+259: vacío
+260: vacío
+261: vacío
+262: vacío
+263: vacío
+264: vacío
+265: vacío
+266: vacío
+267: vacío
+268: Agave salmiana
+269: vacío
+270: vacío
+271: Agave salmiana
+272: Agave salmiana
+273: vacío
+274: Opuntia engelmannii
+275: vacío
+276: Agave salmiana
+277: Agave lechuguilla
+278: Opuntia cantabrigiensis
+279: Agave scabra
+280: vacío
+281: vacío
+282: vacío
+283: vacío
+284: Agave lechuguilla
+285: vacío
+286: vacío
+287: vacío
+288: vacío
+289: Prosopis laevigata
+290: vacío
+291: vacío
+292: Opuntia streptacantha
+293: vacío
+294: vacío
+295: Agave lechuguilla
+296: Agave salmiana
+297: vacío
+298: vacío
+299: vacío
+300: vacío
+301: vacío
+302: vacío
+303: vacío
+304: vacío
+305: Prosopis laevigata
+306: vacío
+307: vacío
+308: vacío
+309: vacío
+310: vacío
+311: vacío
+312: Prosopis laevigata
+313: vacío
+314: vacío
+315: vacío
+316: Opuntia engelmannii
+317: vacío
+318: vacío
+319: vacío
+320: vacío
+321: vacío
+322: vacío
+323: vacío
+324: Prosopis laevigata
+325: vacío
+326: vacío
+327: vacío
+328: vacío
+329: vacío
+330: Agave salmiana
+331: vacío
+332: vacío
+333: Opuntia engelmannii
+334: vacío
+335: vacío
+336: Prosopis laevigata
+337: Agave striata
+338: Opuntia robusta
+339: vacío
+340: Yucca filifera
+341: Agave salmiana
+342: vacío
+343: Prosopis laevigata
+344: vacío
+345: vacío
+346: vacío
+347: vacío
+348: vacío
+349: vacío
+350: Prosopis laevigata
+351: vacío
+352: vacío
+353: vacío
+354: vacío
+355: vacío
+356: vacío
+357: vacío
+358: vacío
+359: vacío
+360: vacío
+361: vacío
+362: vacío
+363: Prosopis laevigata
+364: Agave scabra
+365: Opuntia robusta
+366: vacío
+367: vacío
+368: vacío
+369: vacío
+370: vacío
+371: vacío
+372: vacío
+373: vacío
+374: vacío
+375: vacío
+376: vacío
+377: vacío
+378: vacío
+379: vacío
+380: Agave scabra
+381: vacío
+382: vacío
+383: vacío
+384: Agave lechuguilla
+385: vacío
+386: Agave striata
+387: vacío
+388: Opuntia cantabrigiensis
+389: vacío
+390: vacío
+391: vacío
+392: vacío
+393: Yucca filifera
+394: vacío
+395: vacío
+396: vacío
+397: vacío
+398: vacío
+399: Agave salmiana
+400: vacío
+401: vacío
+402: vacío
+403: vacío
+404: Agave salmiana
+405: vacío
+406: vacío
+407: vacío
+408: vacío
+409: vacío
+410: vacío
+411: vacío
+412: vacío
+413: vacío
+414: vacío
+415: vacío
+416: vacío
+417: vacío
+418: vacío
+419: vacío
+420: vacío
+421: vacío
+422: vacío
+423: vacío
+424: vacío
+425: Agave salmiana
+426: Prosopis laevigata
+427: vacío
+428: vacío
+429: vacío
+430: vacío
+431: vacío
+432: vacío
+433: vacío
+434: Prosopis laevigata
+435: vacío
+436: Agave salmiana
+437: Yucca filifera
+438: vacío
+439: vacío
+440: vacío
+441: vacío
+442: Opuntia robusta
+443: vacío
+444: vacío
+445: Opuntia engelmannii
+446: vacío
+447: vacío
+448: Prosopis laevigata
+449: Agave striata
+450: Agave salmiana
+451: vacío
+452: vacío
+453: vacío
+454: vacío
+455: vacío
+456: vacío
+457: vacío
+458: vacío
+459: vacío
+460: vacío
+461: vacío
+462: vacío
+463: vacío
+464: vacío
+465: vacío
+466: vacío
+467: Agave salmiana
+468: vacío
+469: vacío
+470: vacío
+471: vacío
+472: vacío
+473: vacío
+474: Agave salmiana
+475: vacío
+476: vacío
+477: Prosopis laevigata
+478: vacío
+479: vacío
+480: vacío
+481: vacío
+482: vacío
+483: vacío
+484: vacío
+485: vacío
+486: Agave salmiana
+487: Prosopis laevigata
+488: vacío
+489: vacío
+490: vacío
+491: vacío
+492: vacío
+493: vacío
+494: vacío
+495: vacío
+496: vacío
+497: Opuntia robusta
+498: vacío
+499: vacío
+500: vacío
+501: vacío
+502: vacío
+503: vacío
+504: vacío
+505: vacío
+506: vacío
+507: vacío
+508: Prosopis laevigata
+509: vacío
+510: vacío
+511: vacío
+512: vacío
+513: vacío
+514: vacío
+515: vacío
+516: vacío
+517: vacío
+518: vacío
+519: Agave lechuguilla
+520: vacío
+521: Prosopis laevigata
+522: vacío
+523: Agave salmiana
+524: vacío
+525: vacío
+526: vacío
+527: vacío
+528: vacío
+529: vacío
+530: vacío
+531: Agave salmiana
+532: vacío
+533: vacío
+534: vacío
+535: vacío
+536: vacío
+537: vacío
+538: vacío
+539: vacío
+540: vacío
+541: vacío
+542: Opuntia cantabrigiensis
+543: vacío
+544: Prosopis laevigata
+545: vacío
+546: Agave salmiana
+547: vacío
+548: Opuntia cantabrigiensis
+549: vacío
+550: vacío
+551: Opuntia streptacantha
+552: Prosopis laevigata
+553: vacío
+554: vacío
+555: Opuntia robusta
+556: vacío
+557: vacío
+558: Agave salmiana
+559: Opuntia streptacantha
+560: vacío
+561: vacío
+562: vacío
+563: vacío
+564: vacío
+565: vacío
+566: vacío
+567: vacío
+568: vacío
+569: vacío
+570: vacío
+571: vacío
+572: vacío
+573: vacío
+574: vacío
+575: Agave salmiana
+576: vacío
+577: vacío
+578: vacío
+579: vacío
+580: vacío
+581: Opuntia streptacantha
+582: vacío
+583: vacío
+584: vacío
+585: vacío
+586: vacío
+587: vacío
+588: Opuntia engelmannii
+589: vacío
+590: vacío
+591: vacío
+592: vacío
+593: vacío
+594: vacío
+595: Opuntia cantabrigiensis
+596: vacío
+597: vacío
+598: vacío
+599: Agave salmiana
+600: vacío
+601: vacío
+602: Prosopis laevigata
+603: vacío
+604: vacío
+605: Prosopis laevigata
+606: vacío
+607: Opuntia robusta
+608: vacío
+609: vacío
+610: vacío
+611: vacío
+612: vacío
+613: Opuntia engelmannii
+614: vacío
+615: vacío
+616: vacío
+617: Agave lechuguilla
+618: vacío
+619: vacío
+620: vacío
+621: vacío
+622: Prosopis laevigata
+623: vacío
+624: Opuntia robusta
+625: Opuntia robusta
+626: vacío
+627: vacío
+628: vacío
+629: vacío
+630: vacío
+631: vacío
+632: Agave salmiana
+633: vacío
+634: vacío
+635: vacío
+636: vacío
+637: vacío
+638: vacío
+639: vacío
+640: vacío
+641: vacío
+642: vacío
+643: vacío
+644: Agave salmiana
+645: vacío
+646: vacío
+647: vacío
+648: Agave scabra
+649: Opuntia streptacantha
+650: vacío
+651: vacío
+652: vacío
+653: vacío
+654: vacío
+655: vacío
+656: Agave scabra
+657: vacío

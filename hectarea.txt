@@ -1,0 +1,13 @@
+1
+Agave lechuguilla: 7
+Agave salmiana: 39
+Agave scabra: 8
+Agave striata: 8
+Opuntia cantabrigiensis: 9
+Opuntia engelmannii: 9
+Opuntia robusta: 14
+Opuntia streptacantha: 13
+Prosopis laevigata: 27
+Yucca filifera: 4
+
+indice del espacio: que planta está
