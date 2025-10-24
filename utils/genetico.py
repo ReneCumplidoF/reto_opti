@@ -147,7 +147,7 @@ class GAParams:
 	p_cruza: float = 0.9
 	p_mut: float = 0.2
 	elitismo: int = 2
-	tiempo_max_min: float = 45.0
+	tiempo_max_min: float = 5.0
 	# Parámetros ACO por evaluación (ajustables)
 	aco_hormigas: int = 25
 	aco_iter: int = 25
