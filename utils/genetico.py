@@ -25,9 +25,14 @@ from dataclasses import dataclass
 import time
 import math
 import json
+import sys
+from pathlib import Path
 from typing import Callable, List, Tuple, Dict
 
 import numpy as np
+
+# Agregar el directorio raíz al path para imports
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from utils.paths import output_path
 from utils.hormigas import optimizar_aco
