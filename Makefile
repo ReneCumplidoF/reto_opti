@@ -67,10 +67,7 @@ notebook: extras-notebook
 
 # Quick sanity check of core deps
 check: venv
-	$(UV) run -p $(PY) python - <<'PY'
-import numpy, matplotlib, scipy
-print('OK: numpy', numpy.__version__, 'matplotlib', matplotlib.__version__, 'scipy', scipy.__version__)
-PY
+	$(UV) run -p $(PY) python -c "import numpy, matplotlib, scipy; print('OK: numpy', numpy.__version__, 'matplotlib', matplotlib.__version__, 'scipy', scipy.__version__)"
 
 # Clean venv (warning: removes .venv)
 clean:
