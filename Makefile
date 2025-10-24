@@ -30,7 +30,7 @@ ensure-uv:
 
 # Create venv with uv (uses system python)
 venv: ensure-uv
-	$(UV) venv .venv
+	@test -d .venv || $(UV) venv .venv
 
 # Install deps into .venv from requirements.txt
 install: venv
@@ -50,7 +50,7 @@ freeze: venv
 	@echo "Wrote requirements.lock"
 
 # Run a script inside the venv without manual activate
-run: venv
+run: install
 	$(UV) run -p $(PY) python $(SCRIPT) $(ARGS)
 
 # Install Jupyter kernel for this venv
@@ -66,7 +66,7 @@ notebook: extras-notebook
 	$(UV) run -p $(PY) jupyter lab
 
 # Quick sanity check of core deps
-check: venv
+check: install
 	$(UV) run -p $(PY) python -c "import numpy, matplotlib, scipy; print('OK: numpy', numpy.__version__, 'matplotlib', matplotlib.__version__, 'scipy', scipy.__version__)"
 
 # Clean venv (warning: removes .venv)
