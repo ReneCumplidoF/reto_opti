@@ -5,7 +5,7 @@
 # Configurable variables
 UV ?= $(shell command -v uv 2>/dev/null || echo ~/.local/bin/uv)
 PY ?= .venv/bin/python
-SCRIPT ?= ejemplo_uso.py
+SCRIPT ?= utils/ejemplo_uso.py
 ARGS ?=
 
 help:

@@ -3,10 +3,14 @@ import json
 import csv
 import numpy as np
 from typing import List, Dict
+from pathlib import Path
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from utils.paths import data_path, output_path
 
-GRAFO_PATH = "grafo_hexagonal.json"
-CSV_PATH = "info_actual.csv"
-OUTPUT_PATH = "acomodos.json"
+GRAFO_PATH = data_path("grafo_hexagonal.json")
+CSV_PATH = data_path("info_actual.csv")
+OUTPUT_PATH = output_path("acomodos.json")
 N_ACOMODOS = 10
 
 

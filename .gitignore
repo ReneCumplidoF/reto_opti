@@ -11,8 +11,11 @@ build/
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# Data files
-*.npy
+# Output folder (generated artifacts)
+output/
+
+# Data files (comentado para permitir commit de datos base)
+# *.npy
 
 # Virtual environments
 venv/

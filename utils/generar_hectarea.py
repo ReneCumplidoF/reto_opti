@@ -3,11 +3,15 @@ import csv
 import json
 import numpy as np
 from typing import List, Dict
+from pathlib import Path
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from utils.paths import data_path, output_path, root_path
 
-CSV_PATH = "info_actual.csv"
-OUTPUT_JSON = "hectarea.json"
-OUTPUT_TXT = "hectarea.txt"
-OUTPUT_ASIG_TXT = "hectarea_asignacion.txt"
+CSV_PATH = data_path("info_actual.csv")
+OUTPUT_JSON = data_path("hectarea.json")
+OUTPUT_TXT = root_path("hectarea.txt")
+OUTPUT_ASIG_TXT = root_path("hectarea_asignacion.txt")
 AREA_HA = 1.0  # una hectárea
 MODO = "bootstrap"  # "bootstrap" | "media"
 RANDOM_SEED = None  # fija un entero para reproducibilidad
@@ -120,7 +124,7 @@ def main():
     especies, densidades = cargar_densidades(CSV_PATH)
     counts = calcular_conteos_1ha(densidades, modo=MODO, rng=rng)
     # Determinar número de espacios del terreno (usando grafo)
-    with open("grafo_hexagonal.json", "r") as fg:
+    with open(data_path("grafo_hexagonal.json"), "r") as fg:
         grafo = json.load(fg)
     n_nodos = len(grafo.get("nodes", []))
     asignacion = construir_asignacion_completa(counts, n_nodos=n_nodos, rng=rng)

@@ -1,5 +1,9 @@
 import numpy as np
-from plantacion_imagen import generate_hex_lattice, plot_plantacion
+from pathlib import Path
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from utils.plantacion_imagen import generate_hex_lattice, plot_plantacion
+from utils.paths import data_path, output_path
 
 
 def crear_aristas(puntos, distancia_maxima=3.5):
@@ -43,10 +47,10 @@ output = {
     "edges": [list(e) for e in aristas]
 }
 
-with open("grafo_hexagonal.json", "w") as f:
+with open(data_path("grafo_hexagonal.json"), "w") as f:
     json.dump(output, f, indent=2)
 
-print("Archivo 'grafo_hexagonal.json' generado correctamente.")
+print(f"Archivo guardado en '{data_path('grafo_hexagonal.json')}'")
 
-plot_plantacion(puntos, spacing=3.4, show=False, save_path="grafo_hexagonal.png")
-print("Gráfico guardado en 'grafo_hexagonal.png'")
+plot_plantacion(puntos, spacing=3.4, show=False, save_path=output_path("grafo_hexagonal.png"))
+print(f"Gráfico guardado en '{output_path('grafo_hexagonal.png')}'")
