@@ -142,12 +142,12 @@ def evaluar_cromosoma(crom: np.ndarray, aco_params: Dict, cache: Dict[Tuple[int,
 
 @dataclass
 class GAParams:
-	pop_size: int = 40
+	pop_size: int = 2
 	torneo_k: int = 3
 	p_cruza: float = 0.9
 	p_mut: float = 0.2
 	elitismo: int = 2
-	tiempo_max_min: float = 5.0
+	tiempo_max_min: float = 1.0
 	# Parámetros ACO por evaluación (ajustables)
 	aco_hormigas: int = 25
 	aco_iter: int = 25
@@ -269,6 +269,8 @@ def ejecutar_ga(params: GAParams) -> Dict:
 		"mejor_cromosoma": mejor_crom,
 		"mejor_costo": mejor_fit,
 		"historial": historial_mejor,
+		"generaciones": generacion,
+		"tiempo_seg": round(time.time() - t0, 2),
 		"resultado_aco": resultado_aco,
 	}
 
